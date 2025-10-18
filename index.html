@@ -12,14 +12,20 @@
 <body>
     
     <article data-testid="test-profile-card">
-        <figure>
-            <img src="https://i.pravatar.cc/200" data-testid="test-user-avatar" alt="Profile Image"/>
-            
-        </figure>
-        <h2 data-testid="test-user-name" aria-label="name">John Doe</h2>
-        <p data-testid="test-user-bio">John Doe is a seasoned graphic designer with 10+ years of experience. He has worked with notable brands such as Netlify, Replit, and Paystack. He likes to mentor newbie designers in his free time and has mentored over 200 students.</p>
+        <header>
 
-<section class="interests">
+            <figure>
+                <img src="https://i.pravatar.cc/200" data-testid="test-user-avatar" alt="Profile Image"/>
+                
+            </figure>
+            <h2 data-testid="test-user-name" aria-label="name">John Doe</h2>
+        </header>
+
+<main>
+
+    <p data-testid="test-user-bio">John Doe is a seasoned graphic designer with 10+ years of experience. He has worked with notable brands such as Netlify, Replit, and Paystack. He likes to mentor newbie designers in his free time and has mentored over 200 students.</p>
+    
+    <section class="interests">
         <section class="hobbies">
             <h3>Hobbies</h3>
             <ul data-testid="test-user-hobbies">
@@ -36,7 +42,8 @@
                 <li>Impromptu Deadlines</li>
             </ul>
         </section>
-</section>
+    </section>
+</main>
 
         <footer>
 

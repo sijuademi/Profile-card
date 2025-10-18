@@ -1,8 +1,13 @@
 "use-strict";
 
-const date =Date.now();
 
-console.log(date)
+const timeElement = document.querySelector('[data-testid="test-user-time"]');
 
-const num=2+4;
-console.log(num)
+        function updateTime() {
+            const now = Date.now();
+            timeElement.textContent = now;
+        }
+
+        document.addEventListener('DOMContentLoaded', updateTime);
+
+        setInterval(updateTime, 1000);
