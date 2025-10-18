@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-..." crossorigin="anonymous"></script>
+
+   <link rel="stylesheet" href="style.css">
+    <title>Profile Card</title>
+</head>
+<body>
+    
+    <article data-testid="test-profile-card">
+        <figure>
+            <img src="https://i.pravatar.cc/200" data-testid="test-user-avatar" alt="Profile Image"/>
+            
+        </figure>
+        <h2 data-testid="test-user-name" aria-label="name">John Doe</h2>
+        <p data-testid="test-user-bio">John Doe is a seasoned graphic designer with 10+ years of experience. He has worked with notable brands such as Netlify, Replit, and Paystack. He likes to mentor newbie designers in his free time and has mentored over 200 students.</p>
+
+<section class="interests">
+        <section class="hobbies">
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+                <li>Hiking</li>
+                <li>Watching Animes</li>
+                <li>Reading Mangas</li>
+            </ul>
+        </section>
+        <section class="dislikes">
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+                <li>Clumsiness</li>
+                <li>Noise</li>
+                <li>Impromptu Deadlines</li>
+            </ul>
+        </section>
+</section>
+
+        <footer>
+
+            <nav data-testid="test-user-social-links">
+                <ul>
+    <li>
+        <a 
+            data-testid="test-user-social-twitter" 
+            href="https://twitter.com/janedoe" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="Follow Jane Doe on Twitter (opens in new tab)"
+        >
+            <i class="fa-brands fa-x-twitter fa-lg" aria-hidden="true"></i>
+        </a>
+    </li>
+    <li>
+        <a 
+            data-testid="test-user-social-linkedin" 
+            href="https://linkedin.com/in/janedoe" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="Connect with Jane Doe on LinkedIn (opens in new tab)"
+        >
+            <i class="fa-brands fa-linkedin fa-lg" aria-hidden="true"></i>
+        </a>
+    </li>
+    <li>
+        <a 
+            data-testid="test-user-social-github" 
+            href="https://github.com/janedoe" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="View Jane Doe's GitHub profile (opens in new tab)"
+            >
+            <i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+        </a>
+    </li>
+</ul>
+</nav>
+<time data-testid="test-user-time">Loading...</time>
+</footer>
+
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
