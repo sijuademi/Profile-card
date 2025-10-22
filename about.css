@@ -43,7 +43,7 @@ p {
 	text-transform: capitalize;
 }
 
-ul {
+li {
 	font-size: 1rem;
 	font-weight: 600;
 	line-height: 2;
@@ -51,7 +51,27 @@ ul {
 	text-transform: capitalize;
 }
 section {
-	border-bottom: 1px solid #222;
-	margin: 3rem 0;
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
+}
+
+@media (min-width: 600px) {
+	main {
+		padding: 1rem 7rem;
+	}
+	h3 {
+		font-size: 2rem;
+	}
+	section {
+		padding-bottom: 0;
+	}
+	p,
+	li {
+		font-size: 1.5rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	main {
+		padding: 1rem 30rem;
+	}
 }
