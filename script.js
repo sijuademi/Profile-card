@@ -1,13 +1,16 @@
 "use-strict";
 
-
 const timeElement = document.querySelector('[data-testid="test-user-time"]');
 
-        function updateTime() {
-            const now = Date.now();
-            timeElement.textContent = now;
-        }
+function updateTime() {
+	const now = Date.now();
+	timeElement.textContent = now;
+}
 
-        document.addEventListener('DOMContentLoaded', updateTime);
+document.addEventListener("DOMContentLoaded", updateTime);
 
-        setInterval(updateTime, 1000);
+setInterval(updateTime, 1000);
+
+function showContact() {
+	document.getElementById("contactOverlay").style.display = "block";
+}

@@ -1,24 +1,27 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#d891d3",
-        "activityBar.background": "#d891d3",
-        "activityBar.foreground": "#15202b",
-        "activityBar.inactiveForeground": "#15202b99",
-        "activityBarBadge.background": "#70762a",
-        "activityBarBadge.foreground": "#e7e7e7",
-        "commandCenter.border": "#15202b99",
-        "sash.hoverBorder": "#d891d3",
-        "statusBar.background": "#cb6bc4",
-        "statusBar.debuggingBackground": "#6bcb72",
-        "statusBar.debuggingForeground": "#15202b",
-        "statusBar.foreground": "#15202b",
-        "statusBarItem.hoverBackground": "#be45b5",
-        "statusBarItem.remoteBackground": "#cb6bc4",
-        "statusBarItem.remoteForeground": "#15202b",
-        "titleBar.activeBackground": "#cb6bc4",
-        "titleBar.activeForeground": "#15202b",
-        "titleBar.inactiveBackground": "#cb6bc499",
-        "titleBar.inactiveForeground": "#15202b99"
-    },
-    "peacock.color": "#cb6bc4"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.requireConfig": false,
+
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#d891d3",
+    "activityBar.background": "#d891d3",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#70762a",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#d891d3",
+    "statusBar.background": "#cb6bc4",
+    "statusBar.debuggingBackground": "#6bcb72",
+    "statusBar.debuggingForeground": "#15202b",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#be45b5",
+    "statusBarItem.remoteBackground": "#cb6bc4",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#cb6bc4",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#cb6bc499",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.color": "#cb6bc4"
 }

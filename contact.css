@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 0.7rem;
+	box-shadow: 0 0 1.4rem rgba(0, 0, 0, 0.5);
+	text-align: left;
+	padding: 1rem 2rem;
+	font-family: "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	background-color: #fff;
+	color: #404042;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #7acac7;
+	font-weight: 900;
+}
+
+p {
+	margin-bottom: 1.5rem;
+}
+
+label {
+	font-weight: 500;
+}
+input {
+	min-width: 15rem;
+	padding: 1rem 0.5rem;
+	border: 1px solid #404042;
+	border-radius: 2rem;
+	margin-top: 0.4rem;
+}
+
+#message {
+	min-width: 15rem;
+	padding: 1rem 0.5rem;
+	border: 1px solid #404042;
+	border-radius: 1rem;
+	margin-top: 0.4rem;
+}
+
+.contact {
+	display: flex;
+	margin: auto;
+	font-size: 1rem;
+	color: #404042;
+	background-color: #7acac7;
+	font-weight: 600;
+	line-height: 1;
+	text-align: center;
+	align-self: center;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	padding: 1rem 3rem;
+	border: none;
+	border-radius: 3rem;
+	cursor: pointer;
+	transition: background 250ms ease-in-out, transform 150ms ease;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.error {
+	color: #b00020; /* Red tone for errors */
+	font-size: 0.9rem;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	display: block;
+	font-weight: 500;
+}
+
+/* ✅ Success message */
+.success {
+	color: #0f9d58; /* Green tone for success */
+	font-size: 1rem;
+	margin-top: 10px;
+	font-weight: 600;
+	background-color: #e6f4ea; /* light green background */
+	padding: 8px 12px;
+	border-radius: 4px;
+}
+
+/* Optional — add smooth fade-in for messages */
+.error,
+.success {
+	transition: opacity 0.3s ease-in-out;
+}
+
+button:hover,
+button:focus {
+	background: #5d5d5fff;
+	color: #7acac7;
+}
+
+button:focus {
+	outline: 0.2rem solid #fff;
+	outline-offset: 0.3rem;
+}
+
+button:active {
+	transform: scale(0.99);
+}
+
+@media (min-width: 600px) {
+	h2 {
+		font-size: 2rem;
+	}
+	input,
+	#message {
+		min-width: 25rem;
+		padding: 1.5rem 1rem;
+	}
+	label {
+		font-size: 1.5rem;
+		align-self: center;
+		padding-right: 1rem;
+	}
+	form div {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 2rem;
+	}
+	input::placeholder,
+	textarea::placeholder {
+		font-size: 1rem;
+	}
+	.error,
+	.success {
+		font-size: 1.5rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.contact {
+		line-height: 2;
+		font-weight: 700;
+		font-size: 1.5rem;
+	}
+	h2 {
+		font-size: 3rem;
+		/* color: #fff; */
+	}
+	input,
+	#message {
+		min-width: 40rem;
+	}
+}
