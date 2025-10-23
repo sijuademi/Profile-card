@@ -83,6 +83,7 @@ input {
 
 /* ✅ Success message */
 .success {
+	display: none;
 	color: #0f9d58; /* Green tone for success */
 	font-size: 1rem;
 	margin-top: 10px;
@@ -144,7 +145,6 @@ button:active {
 
 @media (min-width: 1024px) {
 	.contact {
-		line-height: 2;
 		font-weight: 700;
 		font-size: 1.5rem;
 	}
