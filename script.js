@@ -11,6 +11,6 @@ document.addEventListener("DOMContentLoaded", updateTime);
 
 setInterval(updateTime, 1000);
 
-function showContact() {
-	document.getElementById("contactOverlay").style.display = "block";
-}
+document.getElementById("contact").addEventListener("click", () => {
+	window.location.href = "contact.html";
+});
