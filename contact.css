@@ -83,7 +83,7 @@ input {
 
 /* ✅ Success message */
 .success {
-	display: none;
+	visibility: hidden;
 	color: #0f9d58; /* Green tone for success */
 	font-size: 1rem;
 	margin-top: 10px;

@@ -34,6 +34,7 @@ document
 		}
 
 		if (valid) {
+			document.querySelector(".success").style.visibility = "visible";
 			success.textContent =
 				"✅ Thank you for contact us! We'll be in touch shortly...";
 			setTimeout(() => {
