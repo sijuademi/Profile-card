@@ -11,7 +11,6 @@ document
 
 		let valid = true;
 
-		// Reset messages
 		document.querySelectorAll(".error").forEach((el) => (el.textContent = ""));
 		success.textContent = "";
 
@@ -38,7 +37,7 @@ document
 			success.textContent =
 				"✅ Thank you for contact us! We'll be in touch shortly...";
 			setTimeout(() => {
-				window.location.href = "about.html"; // redirect to About page
-			}, 2000); // waits 2 seconds before redirect
+				window.location.href = "about.html";
+			}, 2000);
 		}
 	});

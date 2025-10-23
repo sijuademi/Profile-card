@@ -73,7 +73,7 @@ input {
 }
 
 .error {
-	color: #b00020; /* Red tone for errors */
+	color: #b00020; 
 	font-size: 0.9rem;
 	margin-top: 4px;
 	margin-bottom: 8px;
@@ -81,19 +81,17 @@ input {
 	font-weight: 500;
 }
 
-/* ✅ Success message */
 .success {
 	visibility: hidden;
-	color: #0f9d58; /* Green tone for success */
+	color: #0f9d58; 
 	font-size: 1rem;
 	margin-top: 10px;
 	font-weight: 600;
-	background-color: #e6f4ea; /* light green background */
+	background-color: #e6f4ea; 
 	padding: 8px 12px;
 	border-radius: 4px;
 }
 
-/* Optional — add smooth fade-in for messages */
 .error,
 .success {
 	transition: opacity 0.3s ease-in-out;
@@ -150,7 +148,7 @@ button:active {
 	}
 	h2 {
 		font-size: 3rem;
-		/* color: #fff; */
+		
 	}
 	input,
 	#message {
