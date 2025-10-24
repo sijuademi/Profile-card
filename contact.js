@@ -14,9 +14,9 @@ document
 		document.querySelectorAll(".error").forEach((el) => (el.textContent = ""));
 		success.textContent = "";
 
-		if (!name.value.trim()) {
+		if (!isNaN(name.value.trim())) {
 			document.getElementById("error-name").textContent =
-				"Full name is required.";
+				"Enter a valid Full Name";
 			valid = false;
 		}
 
@@ -36,8 +36,8 @@ document
 			document.querySelector(".success").style.visibility = "visible";
 			success.textContent =
 				"✅ Thank you for contact us! We'll be in touch shortly...";
-			setTimeout(() => {
-				window.location.href = "about.html";
-			}, 2000);
+			// setTimeout(() => {
+			// 	window.location.href = "about.html";
+			// }, 1000);
 		}
 	});

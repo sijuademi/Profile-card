@@ -28,7 +28,7 @@ h2 {
 	font-weight: 900;
 }
 
-p {
+form div {
 	margin-bottom: 1.5rem;
 }
 
@@ -73,7 +73,7 @@ input {
 }
 
 .error {
-	color: #b00020; 
+	color: #b00020;
 	font-size: 0.9rem;
 	margin-top: 4px;
 	margin-bottom: 8px;
@@ -83,11 +83,11 @@ input {
 
 .success {
 	visibility: hidden;
-	color: #0f9d58; 
+	color: #0f9d58;
 	font-size: 1rem;
 	margin-top: 10px;
 	font-weight: 600;
-	background-color: #e6f4ea; 
+	background-color: #e6f4ea;
 	padding: 8px 12px;
 	border-radius: 4px;
 }
@@ -120,16 +120,22 @@ button:active {
 	#message {
 		min-width: 25rem;
 		padding: 1.5rem 1rem;
+		/* flex: 1 1 25rem; */
 	}
 	label {
 		font-size: 1.5rem;
 		align-self: center;
 		padding-right: 1rem;
+		/* flex: 1 1 2rem; */
 	}
 	form div {
-		display: flex;
-		justify-content: space-between;
+		/* display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between; */
 		margin-bottom: 2rem;
+	}
+	form div p {
+		flex: 0 1 100%;
 	}
 	input::placeholder,
 	textarea::placeholder {
@@ -148,7 +154,6 @@ button:active {
 	}
 	h2 {
 		font-size: 3rem;
-		
 	}
 	input,
 	#message {

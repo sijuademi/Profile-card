@@ -19,6 +19,7 @@ article {
 }
 
 figure img {
+	width: 300px;
 	border-radius: 50%;
 }
 
@@ -105,7 +106,7 @@ time {
 
 @media (min-width: 768px) {
 	article {
-		margin-top: 10rem;
+		margin-top: 2rem;
 		max-width: 70%;
 	}
 	.interests {
@@ -118,7 +119,6 @@ time {
 @media (min-width: 1024px) {
 	article {
 		max-width: 48rem;
-		max-height: 40rem;
 	}
 	.interests {
 		display: block;
