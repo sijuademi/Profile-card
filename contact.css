@@ -129,9 +129,9 @@ button:active {
 		/* flex: 1 1 2rem; */
 	}
 	form div {
-		/* display: flex;
+		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between; */
+		justify-content: space-between;
 		margin-bottom: 2rem;
 	}
 	form div p {
